@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="LightningFastDevices"
+           fetch="https://github.com" />
+
+ <!-- Samsung MSM8916 Common Repos -->
+  <project path="device/samsung/msm8916-common" name="LOSSG-8916/android_device_samsung_msm8916-common" groups="device" remote="LightningFastDevices" revision="lineage-17.1"/>
+
+ <!-- Common Samsung MSM8916 Kernel -->
+  <project path="kernel/samsung/msm8916" name="LOSSG-8916/android_kernel_samsung_msm8916" remote="LightningFastDevices" revision="lineage-17.1_DJABHipHop"/>
+
+ <!-- Galaxy Tab E-->
+  <project path="device/samsung/gte-common" name="LOSSG-8916/android_device_samsung_gte-common" groups="device" remote="LightningFastDevices"  revision="lineage-17.1"/>
+  <project path="device/samsung/gtelwifiue" name="LOSSG-8916/android_device_samsung_gtelwifiue" groups="device" remote="LightningFastDevices"  revision="lineage-17.1"/>
+  <project path="device/samsung/gtesqltespr" name="LOSSG-8916/android_device_samsung_gtesqltespr" groups="device" remote="LightningFastDevices"  revision="lineage-17.1"/>
+  
+ <!-- Vendor Trees for Galaxy Tab E-->
+  <project path="vendor/samsung/gte-common" name="LOSSG-8916/android_vendor_samsung_gte-common" groups="device" remote="LightningFastDevices"  revision="lineage-17.1"/>
+  <project path="vendor/samsung/gtelwifiue" name="LOSSG-8916/android_vendor_samsung_gtelwifiue" groups="device" remote="LightningFastDevices"  revision="lineage-17.1"/>
+  <project path="vendor/samsung/gtesqltespr" name="LOSSG-8916/android_vendor_samsung_gtesqltespr" groups="device" remote="LightningFastDevices"  revision="lineage-17.1"/>
+
+ <!-- Vendor Trees for all Samsung MSM8916 repos -->
+  <project path="vendor/samsung/msm8916-common" name="LOSSG-8916/android_vendor_samsung_msm8916-common" groups="device" remote="LightningFastDevices" revision="lineage-17.1"/>
+  
+  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="lineage-17.1" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-17.1" />
+  <project name="LineageOS/android_external_stlport" path="external/stlport" remote="github" revision="lineage-15.1" />
+  <project name="LineageOS/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="lineage-17.1" />
+  <project name="LineageOS/android_hardware_sony_timekeep" path="hardware/sony/timekeep" remote="github" revision="lineage-17.1" />
+</manifest>
